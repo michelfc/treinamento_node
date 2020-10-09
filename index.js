@@ -14,4 +14,4 @@ app.use(cors());
 professorController(app);
 usuarioController(app);
 
-app.listen(8081, () => console.log("Ouvindo na porta 8081"));
+app.listen(8080, () => console.log("Ouvindo na porta 8080"));
