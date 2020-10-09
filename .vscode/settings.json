@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/bc1c5da1-7d3d-4ad6-a333-9f7db4615aba/resourceGroups/Gratuito/providers/Microsoft.Web/sites/treinamento-hack-node",
+    "appService.deploySubpath": "."
+}
