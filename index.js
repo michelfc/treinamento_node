@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const professorController = require('./controllers/professor.controller');
 const usuarioController = require('./controllers/usuario.controller');
 
@@ -8,6 +9,7 @@ mongoose.connect("mongodb+srv://treinamento_node:abc123456@cluster0.jodan.gcp.mo
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 professorController(app);
 usuarioController(app);
